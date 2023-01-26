@@ -1,0 +1,44 @@
+nav {
+    background-color: #7DF9FF;
+}
+
+/* .navbar-brand {
+    text-align: center;
+    color: #7DF9FF;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+} */
+
+.rectangle {
+    position: absolute;
+    width: 267px;
+    height: 49px;
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+    /* left: 586px;
+    top: 26px; */
+
+    background: #FEFEFE;
+    border-radius: 10px;
+}
+
+#navLeftItem {
+    position: absolute;
+    height: 24px;
+    left: 132px;
+    align-items: center;
+    text-align: right;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #000000;
+}

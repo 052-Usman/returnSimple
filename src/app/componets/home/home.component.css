@@ -1,0 +1,114 @@
+.wrapper {
+    background: url("src/assets/image/image.png");
+    position: center;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.main-text1 {
+    /* Return your product without Leaving Your Home! */
+
+    position: absolute;
+    max-width: 603px;
+    max-height: 211px;
+    left: auto;
+    top: 100px;
+
+    font-family: 'Cardium B';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 68px;
+    /* or 113% */
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+}
+
+.main-text2 {
+    /* We pick up returns purchased from any online retailer. No more printing labels, packaging or trips to the post office */
+
+    position: absolute;
+    max-width: 598px;
+    max-height: 52px;
+    left: auto;
+    top: 350px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* or 130% */
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 28px rgba(0, 0, 0, 0.23);
+}
+
+.rectangle7 {
+    /* Rectangle 7 */
+    position: absolute;
+    width: 160px;
+    height: 55px;
+    left: auto;
+    top: 500px;
+
+    background: #7DF9FF;
+    box-shadow: 0px 14px 34px rgba(255, 149, 149, 0.18);
+    border-radius: 0px 20px 20px 20px;
+}
+
+.rectangle8 {
+    position: absolute;
+    width: 160px;
+    height: 55px;
+    left: 300px;
+    top: 500px;
+
+    background: #FFFFFF;
+    border: 2px solid #7DF9FF;
+    border-radius: 20px 20px 0px 20px;
+}
+
+#getStarted {
+    /* Get Started */
+    margin-top: 7px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+#ourPricing {
+    /* Our Pricing */
+    margin-top: 7px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+
+    color: #7DF9FF;
+}
+
+.zipCode {
+    /* Rectangle 9 */
+
+    position: absolute;
+    width: 360px;
+    height: 55px;
+    left: auto;
+    top: 580px;
+
+    background: #FFFFFF;
+    border: 2px solid #7DF9FF;
+    border-radius: 20px;
+}
