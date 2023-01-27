@@ -2,23 +2,22 @@ nav {
     background-color: #7DF9FF;
 }
 
-/* .navbar-brand {
+.navbar-brand {
     text-align: center;
     color: #7DF9FF;
-    
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-} */
+    font-size: 20px;
+}
 
 .rectangle {
-    position: absolute;
-    width: 267px;
-    height: 49px;
-    transform: translateX(-50%);
-    left: 50%;
-    position: relative;
+    width: 200px;
+    height: 40px;
+    /* transform: translateX(-50%);
+    left: 50%; */
+    /* position: relative; */
     /* left: 586px;
     top: 26px; */
 
@@ -26,13 +25,15 @@ nav {
     border-radius: 10px;
 }
 
-#navLeftItem {
-    position: absolute;
-    height: 24px;
-    left: 132px;
-    align-items: center;
-    text-align: right;
+.rectangle1 {
+    width: 140px;
+    height: 40px;
 
+    background: #FFFFFF;
+    border-radius: 0px 10px 10px 10px;
+}
+
+.nav-item {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
