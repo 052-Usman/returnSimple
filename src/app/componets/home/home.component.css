@@ -115,7 +115,7 @@
 
 .cardProperties {
     max-width: 334px;
-    max-height: 274px;
+    min-height: 274px;
 
     background: #FFFFFF;
     border: 1px solid #7DF9FF;
@@ -123,7 +123,69 @@
     border-radius: 10px;
 }
 
+.rectangleGreen {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    width: 98.7vw;
+    height: 55px;
 
+    background: #7DF9FF;
+}
+
+.rectangle34 {
+    width: 80vw;
+    height: 150px;
+    margin: 22px;
+    padding: 4px;
+
+    background: #F5F5F5;
+    border-radius: 20px;
+}
+
+.textDrive1 {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 102.52%;
+    margin-bottom: 0%;
+    color: #000000;
+}
+
+.textDrive2 {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 0%;
+    line-height: 102.52%;
+    color: #7DF9FF;
+}
+
+.textDrive3 {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.rectangle38 {
+    box-sizing: border-box;
+    width: 680px;
+    height: 50px;
+    margin: 25px;
+
+    background: #FAFAFA;
+    border: 1px solid #C9C9C9;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.18);
+    border-radius: 0px 20px 20px 20px;
+}
 
 @media screen and (max-width: 575px) {
     .main-text1 {
@@ -196,7 +258,7 @@
 
     .zipCode {
         /* Rectangle 9 */
-        
+
         position: absolute;
         width: 340px;
         height: 55px;
@@ -206,5 +268,51 @@
         background: #FFFFFF;
         border: 2px solid #7DF9FF;
         border-radius: 20px;
+    }
+
+
+    .textDrive1 {
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 102.52%;
+        margin-bottom: 0%;
+        color: #000000;
+    }
+
+    .textDrive2 {
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 0%;
+        line-height: 102.52%;
+        color: #7DF9FF;
+    }
+
+    .textDrive3 {
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+
+        color: #000000;
+    }
+
+    .rectangle38 {
+        box-sizing: border-box;
+        width: 300px;
+        height: 50px;
+        margin: 25px;
+    
+        background: #FAFAFA;
+        border: 1px solid #C9C9C9;
+        box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.18);
+        border-radius: 0px 20px 20px 20px;
     }
 }
