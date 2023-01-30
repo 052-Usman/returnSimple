@@ -2,12 +2,14 @@ nav {
     background-color: #7DF9FF;
 }
 
+* {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
 .navbar-brand {
     text-align: center;
     color: #7DF9FF;
-
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
 }
@@ -15,11 +17,10 @@ nav {
 .rectangle {
     width: 200px;
     height: 40px;
+
     /* transform: translateX(-50%);
-    left: 50%; */
-    /* position: relative; */
-    /* left: 586px;
-    top: 26px; */
+    left: 50%;
+    position: relative; */
 
     background: #FEFEFE;
     border-radius: 10px;
@@ -34,12 +35,8 @@ nav {
 }
 
 .nav-item {
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
-
     color: #000000;
 }
