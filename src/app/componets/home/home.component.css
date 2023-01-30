@@ -1,3 +1,8 @@
+* {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
 .wrapper {
     background: url("src/assets/image/image.png");
     position: center;
@@ -126,9 +131,8 @@
 .rectangleGreen {
     margin-top: 60px;
     margin-bottom: 100px;
-    width: 98.7vw;
+    width: 100%;
     height: 55px;
-
     background: #7DF9FF;
 }
 
@@ -176,8 +180,7 @@
 }
 
 .rectangle38 {
-    box-sizing: border-box;
-    width: 680px;
+    width: 90%;
     height: 50px;
     margin: 25px;
 
@@ -186,8 +189,87 @@
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.18);
     border-radius: 0px 20px 20px 20px;
 }
+.rectangle38 p{
+    transform: translateY(40%);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+}
+.textHandle p{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: #7DF9FF;
+}
+.btnFaq{
+    width: 150px;
+    height: 50px;
+    margin-left: 1rem;
+    background-color: #7DF9FF;
+    box-shadow: 0px 8px 24px rgba(125, 249, 255, 0.22);
+    border-radius: 0px 10px 10px 10px;
+}
+.paddingHandle{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.rectangle49 {
+    width: 90%;
+    height: 190px;
+    transform: translateY(50%);
+
+    background: #7DF9FF;
+    box-shadow: 0px 14px 24px rgba(125, 249, 255, 0.22);
+    border-radius: 20px;
+}
+.rectangle49 h1, p{
+    color: #FFFFFF;
+    letter-spacing: 0.08em;
+}
+.rectangle49 button{
+    background-color: #FFFFFF;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+
+footer {
+    background-color: #000000;
+}
+
+footer .padding {
+    padding-top: 12rem;
+}
+
+footer div .padding1 {
+    padding-bottom: 3rem;
+}
+
+footer h4 {
+    color: #F2F2F2;
+}
+
+footer p {
+    color: #FFFFFF;
+}
+
+footer .form-control {
+    margin-left: 10% !important;
+    margin-right: 2% !important;
+}
+
+footer button {
+    background-color: #7DF9FF;
+    ;
+}
 
 @media screen and (max-width: 575px) {
+
+    .rectangle49 {
+        height: 200px;
+    }
+
     .main-text1 {
         /* Return your product without Leaving Your Home! */
 
@@ -305,14 +387,19 @@
     }
 
     .rectangle38 {
-        box-sizing: border-box;
-        width: 300px;
-        height: 50px;
-        margin: 25px;
-    
-        background: #FAFAFA;
-        border: 1px solid #C9C9C9;
-        box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.18);
-        border-radius: 0px 20px 20px 20px;
+        height: 40px;
+    }
+    .textHandle p{
+        font-size: 30px;
+    }
+    .rectangle38 p{
+        font-size: 12px;
+    }
+    .btnFaq{
+        height: 40px;
+     }
+    .paddingHandle{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 }
