@@ -12,10 +12,7 @@ nav {
 }
 
 .navbar-brand {
-    text-align: center;
-    color: #7DF9FF;
-    font-weight: 400;
-    font-size: 20px;
+    margin-left: 5%;
 }
 
 .rectangle {
@@ -31,7 +28,6 @@ nav {
 }
 
 .rectangle1 {
-    width: 140px;
     height: 40px;
 
     background: #FFFFFF;
