@@ -48,5 +48,14 @@ footer .form-control {
 
 footer button {
     background-color: #7DF9FF;
-    ;
+}
+
+a p:hover {
+    color: #7DF9FF;
+  }
+
+@media screen and (max-width: 767px) {
+    .rectangle49 button {
+        margin-top: 2%;
+    }
 }

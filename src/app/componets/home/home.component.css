@@ -75,9 +75,12 @@
 }
 
 .connect img {
-    margin-right: 2rem;
-    width: 100px;
+    width: 140px;
     height: 100px;
+}
+
+.paddingCA{
+    padding: 1rem;
 }
 
 .connect h5 {
@@ -380,17 +383,20 @@ hr {
         line-height: 24px;
     }
 
+ 
     .connect img {
         margin-top: 0.5rem;
-        margin-right: 0.5rem;
-        width: 50px;
+        width: 60px;
         height: 50px;
+    }
+
+    .paddingCA{
+        padding: 0.4rem;
     }
 
     .rectangleBlack {
         width: 100%;
         padding: 2%;
-        background: #000000;
     }
 
     .rectangleBlack h5 {
