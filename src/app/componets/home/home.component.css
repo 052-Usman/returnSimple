@@ -19,6 +19,8 @@
 
     margin-left: 4rem;
     margin-top: 4rem;
+
+    font-size: calc( var(--font-xx-large)*1.2);
 }
 
 .welcomeText p {
@@ -29,6 +31,8 @@
     text-shadow: 0px 4px 28px rgba(0, 0, 0, 0.23);
 
     margin-left: 4rem;
+
+    font-size: calc( var(--font-small)*1.2);
 }
 
 .rectangle7 {
@@ -87,6 +91,8 @@
     font-weight: 700;
     line-height: 24px;
     color: #000000;
+
+    font-size: calc( var(--font-medium)*1.1);
 }
 
 .rectangleBlack {
@@ -101,6 +107,8 @@
     font-weight: 600;
     line-height: 24px;
     color: #B9B9B9;
+
+    font-size: calc( var(--font-medium)*1);
 }
 
 .rectangleBlack p {
@@ -109,6 +117,9 @@
     font-weight: 400;
     line-height: 20px;
     color: #FFFFFF;
+    letter-spacing: 0.01rem;
+
+    font-size: calc( var(--font-small)*1);
 }
 
 hr {
@@ -121,13 +132,17 @@ hr {
     color: #000000;
     font-weight: 600;
     line-height: 89px;
+
+    font-size: calc( var(--font-xx-large)*1.2);
 }
 
 .works p {
     color: #000000;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0.08em
+    letter-spacing: 0.08em;
+
+    font-size: calc( var(--font-small)*1.2);
 }
 
 .cardProperties {
@@ -154,12 +169,16 @@ hr {
     font-weight: 600;
     line-height: 28px;
     color: #000000;
+
+    font-size: calc( var(--font-medium)*1.2);
 }
 
 .cardProperties p {
     font-weight: 400;
     line-height: 19px;
     color: #000000;
+
+    font-size: calc( var(--font-small)*1.2);
 }
 
 
@@ -167,18 +186,24 @@ hr {
     font-weight: 600;
     line-height: 30px;
     color: #000000;
+
+    font-size: calc( var(--font-medium)*1.2);
 }
 
 .paddingPickup .card-text {
     font-weight: 400;
     line-height: 22px;
     color: #494949;
+
+    font-size: calc( var(--font-small)*1.2);
 }
 
 .paddingPickup h1 {
     font-weight: 600;
     line-height: 44px;
     color: #000000;
+
+    font-size: calc( var(--font-xx-large)*1.2);
 }
 
 
@@ -229,16 +254,28 @@ hr {
     line-height: 100%;
     margin-bottom: 0%;
     color: #000000;
+
+    font-size: calc( var(--font-large)*1.2);
 }
 
 .rectangle34 p {
+    margin-top: 2%;
     font-weight: 400;
     line-height: 17px;
     color: #000000;
+
+    font-size: calc( var(--font-small)*1.2);
 }
 
 .rectangle34 button {
-    background-color: #7DF9FF;
+    background: #7DF9FF;
+    box-shadow: 0px 8px 25px rgba(125, 249, 255, 0.25);
+    border-radius: 10px;
+
+    margin-top: 1%;
+
+    color: #FFFFFF;
+    font-size: calc( var(--font-small)*1.2);
 }
 
 .rectangle38 {
@@ -258,6 +295,8 @@ hr {
     font-size: 16px;
     line-height: 100%;
     color: #000000;
+
+    font-size: calc( var(--font-small)*1.2);
 }
 
 .textHandle h2 {
@@ -265,6 +304,8 @@ hr {
     line-height: 100%;
     color: #7DF9FF;
     margin-left: 3%;
+
+    font-size: calc( var(--font-xx-large)*1.2);
 }
 
 .btnFaq {
@@ -275,6 +316,8 @@ hr {
     color: #FFFFFF;
     box-shadow: 0px 8px 24px rgba(125, 249, 255, 0.22);
     border-radius: 0px 10px 10px 10px;
+
+    font-size: calc( var(--font-small)*1.2);
 }
 
 .paddingHandle {
@@ -293,6 +336,9 @@ hr {
     line-height: 100%;
     color: #7DF9FF;
     margin-bottom: 1.5rem;
+    word-spacing: 0.05rem;
+
+    font-size: calc( var(--font-xx-large)*1.2);
 }
 
 .paddingRetailer p {
@@ -300,6 +346,8 @@ hr {
     line-height: 100%;
     color: #000000;
     margin-bottom: 1.5rem;
+
+    font-size: calc( var(--font-small)*1.2);
 }
 
 .paddingRetailer button {
@@ -309,6 +357,8 @@ hr {
     line-height: 100%;
     color: #FFFFFF;
     margin-bottom: 1.5rem;
+
+    font-size: calc( var(--font-small)*1.2);
 }
 
 .paddingRetailer img {
@@ -339,16 +389,20 @@ hr {
     line-height: 100%;
     letter-spacing: 0.195em;
     color: #000000;
+
+    font-size: calc( var(--font-small)*1.2);
 }
 
 .rectangle47 h4 {
     font-weight: 600;
     line-height: 120.93%;
     color: #000000;
+
+    font-size: calc( var(--font-large)*1.2);
 }
 
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 767px) {
 
     .welcomeText h1 {
         margin-left: 1rem;

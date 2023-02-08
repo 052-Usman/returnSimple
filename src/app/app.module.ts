@@ -8,6 +8,8 @@ import { NavbarComponent } from './componets/navbar/navbar.component';
 import { HomeComponent } from './componets/home/home.component';
 import { FooterComponent } from './componets/footer/footer.component';
 import { AboutComponent } from './componets/about/about.component';
+import { PricingComponent } from './componets/pricing/pricing.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import { AboutComponent } from './componets/about/about.component';
     NavbarComponent,
     HomeComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    PricingComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +27,9 @@ import { AboutComponent } from './componets/about/about.component';
       { path: '', redirectTo: '/home', pathMatch: 'full' },
       { path: 'home', component: HomeComponent },
       { path: 'about', component: AboutComponent },
+      { path: 'pricing', component: PricingComponent },
     ]),
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -8,10 +8,18 @@
     border-radius: 20px;
 }
 
-.rectangle49 h1,
-p {
+.rectangle49 h1 {
     color: #FFFFFF;
     letter-spacing: 0.08em;
+
+    font-size: calc(var(--font-xx-large)*1.2);
+}
+
+.rectangle49 p {
+    color: #FFFFFF;
+    letter-spacing: 0.08em;
+
+    font-size: calc(var(--font-small)*1.2);
 }
 
 .rectangle49 button {
@@ -19,6 +27,8 @@ p {
     letter-spacing: 0.015em;
     color: #000000;
     margin-top: 15%;
+
+    font-size: calc(var(--font-small)*1.2);
 }
 
 footer {
@@ -35,10 +45,14 @@ footer div .padding1 {
 
 footer h4 {
     color: #F2F2F2;
+
+    font-size: calc(var(--font-medium)*1.2);
 }
 
 footer p {
     color: #FFFFFF;
+
+    font-size: calc(var(--font-small)*1.2);
 }
 
 footer .form-control {
@@ -48,11 +62,14 @@ footer .form-control {
 
 footer button {
     background-color: #7DF9FF;
+    color: #FFFFFF;
+
+    font-size: calc(var(--font-small)*1.2);
 }
 
 a p:hover {
     color: #7DF9FF;
-  }
+}
 
 @media screen and (max-width: 767px) {
     .rectangle49 button {

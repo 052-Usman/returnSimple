@@ -26,6 +26,8 @@
 .ourStory h3 {
     font-weight: 600;
     line-height: 72px;
+
+    font-size: calc( var(--font-large)*1.2)
 }
 
 .ourStory p {
@@ -33,6 +35,8 @@
     margin-right: 5%;
     font-weight: 400;
     line-height: 174%;
+
+    font-size: calc( var(--font-small)*1.2)
 }
 
 .connect {
@@ -54,6 +58,8 @@
     font-weight: 600;
     line-height: 36px;
     color: #000000;
+
+    font-size: calc( var(--font-medium)*1.1)
 }
 
 @media screen and (max-width: 767px) {

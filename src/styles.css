@@ -1,1 +1,220 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto+Slab:wght@300;500&family=Sarabun:wght@200&display=swap');
+html, body { height: 100%; }
+
+body { font-family: 'Poppins', 'Cardium', sans-serif}
+
+
+
+
+
+
+
+:root {
+    
+
+    --primary-light: #0D5569;
+    --primary-dark: #052640;
+    --primary-black: rgb(0, 0, 0);
+    --primary-grey: rgb(178 173 173);
+    --primary-white: rgb(255, 255, 255);
+
+ 
+
+    --white-light: #FEFBF7;
+    --white-default: #e9ecec;
+    --white-dark: #c4cdd0;
+
+
+    --color-green: #068972;
+
+
+    --padding-extra-small : 1px;
+    --padding-small : 4px;
+    --padding-medium: 7px;
+    --padding-large: 11px;
+    --padding-extra-large: 15px;
+
+
+
+
+    --font-extra-small : 7px;
+    --font-small : 13px;
+    --font-medium: 17px;
+    --font-large: 21px;
+    --font-extra-large: 25px;
+    --font-xx-large:27px;
+
+}
+
+@media (min-width:200px){
+
+    :root {
+       
+        --font-extra-small : 7px;
+        --font-small : 13px;
+        --font-medium: 17px;
+        --font-large: 18px;
+        --font-extra-large: 22px;
+        --font-xx-large:25px;
+    
+
+          
+        --padding-extra-small : 5px;
+    --padding-small : 9px;
+    --padding-medium: 14px;
+    --padding-large: 19px;
+    --padding-extra-large: 20px;
+
+    }
+
+}
+@media (min-width:400px){
+
+    :root {
+       
+        --font-extra-small : 7px;
+        --font-small : 13px;
+        --font-medium: 17px;
+        --font-large: 19px;
+        --font-extra-large: 23px;
+        --font-xx-large:27px;
+    
+
+            
+        --padding-extra-small : 7px;
+        --padding-small : 13px;
+        --padding-medium: 17px;
+        --padding-large: 21px;
+        --padding-extra-large: 25px;
+
+    }
+
+}
+@media (min-width:700px){
+
+    :root {
+       
+        --font-extra-small : 8px;
+        --font-small : 12px;
+        --font-medium: 16px;
+        --font-large: 20px;
+        --font-extra-large: 24px;
+        --font-xx-large:28px;
+    
+
+        
+        --padding-extra-small : 8px;
+        --padding-small : 14px;
+        --padding-medium: 18px;
+        --padding-large: 22px;
+        --padding-extra-large: 26px;
+    }
+
+}
+@media (min-width:1000px){
+
+    :root {
+       
+        --font-extra-small : 9px;
+        --font-small : 13px;
+        --font-medium: 17px;
+        --font-large: 21px;
+        --font-extra-large: 25px;
+        --font-xx-large:29px;
+    
+
+             
+        --padding-extra-small : 9px;
+        --padding-small : 15px;
+        --padding-medium: 19px;
+        --padding-large: 23px;
+        --padding-extra-large: 27px;
+    }
+
+}
+
+@media (min-width:1300px){
+
+    :root {
+       
+        --font-extra-small : 10px;
+        --font-small : 14px;
+        --font-medium: 18px;
+        --font-large: 22px;
+        --font-extra-large: 26px;
+        --font-xx-large:30px;
+    
+
+        --padding-extra-small : 10px;
+        --padding-small : 16px;
+        --padding-medium: 20px;
+        --padding-large: 24px;
+        --padding-extra-large: 28px;
+    }
+
+}
+@media (min-width:1700px){
+
+    :root {
+        --font-extra-small : 11px;
+        --font-small : 15px;
+        --font-medium: 19px;
+        --font-large: 23px;
+        --font-extra-large: 27px;
+        --font-xx-large:33px;
+    
+        --padding-extra-small : 11px;
+        --padding-small : 17px;
+        --padding-medium: 22px;
+        --padding-large: 25px;
+        --padding-extra-large: 29px;
+    }
+
+}
+@media (min-width:2000px){
+
+    :root {
+        --font-extra-small : 12px;
+        --font-small : 16px;
+        --font-medium: 20px;
+        --font-large: 24px;
+        --font-extra-large: 28px;
+        --font-xx-large:36px;
+    
+        --padding-extra-small : 12px;
+        --padding-small : 18px;
+        --padding-medium: 23px;
+        --padding-large: 26px;
+        --padding-extra-large: 20px;
+    }
+
+}
+
+::-webkit-scrollbar {
+    width: 10px; /* Remove scrollbar space */
+    background: white; /* Optional: just make scrollbar invisible */
+    padding: 20px;
+    height: 20px;
+    margin: 10px;
+
+
+}
+ 
+ ::-webkit-scrollbar-thumb {
+    background: #8d979b;
+    border-radius: 2px;
+    cursor: pointer;
+ }
+
+ button , .unselectable , .card{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */ 
+    cursor: pointer;
+}
+
+.borderbackgroundbutton2 , .borderbackgroundbutton1{
+    cursor: pointer;
+}
